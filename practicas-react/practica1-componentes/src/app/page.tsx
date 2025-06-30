@@ -6,7 +6,7 @@ import Imagen from '../../components/Imagen';
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: '#f0f8ff', padding: '60px' }}>
+    <div style={{ backgroundColor: '#c1bfc9', padding: '60px' }}>
       <Titulo
         texto="WAOS THIS IS REAL BRO XD"
         color="#1e90ff"
