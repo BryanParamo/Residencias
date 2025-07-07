@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan Pérez",
+    "email": "juan@example.com",
+    "icono": "user",
+    "imagen": "/cat1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "María García",
+    "email": "maria@example.com",
+    "icono": "user",
+    "imagen": "/cat2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos López",
+    "email": "carlos@example.com",
+    "icono": "user",
+    "imagen": "/cat3.jpg"
+  }
+]
