@@ -13,7 +13,7 @@ import {
   ModalBody,
 } from 'reactstrap';
 
-export default function RegisterFormPage() {
+export default function RegisterFormPage({ onAdd }) {
   const today = new Date().toISOString().split('T')[0];
 
   const [formData, setFormData] = useState({
@@ -112,10 +112,12 @@ export default function RegisterFormPage() {
       return;
     }
 
+    // Enviar el registro a la tabla
+    onAdd(formData);
+
     alert('Formulario enviado exitosamente');
 
-    // para limpiar el formulario luego de enviarlo pe causa
-    handleReset();
+    handleReset(); // Limpia el formulario
   };
 
   return (
@@ -289,7 +291,7 @@ export default function RegisterFormPage() {
 
         <div className="d-flex gap-2">
           <Button color="primary" type="submit">
-            Enviar
+            Guardar
           </Button>
           <Button color="secondary" type="button" onClick={handleReset}>
             Reiniciar
