@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import RegisterFormPage from '../../components/page';  // tu formulario con validaciones
+import RegisterFormPage from '../../components/page';  
 import Table from '../../components/table';
 import EditModal from '../../components/editModal';
 
