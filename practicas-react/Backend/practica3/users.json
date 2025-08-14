@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "password": "123456",
+    "first_name": "Juan",
+    "last_name": "Pérez",
+    "username": "juanperez_actualizado",
+    "email": "juan.perez@newdomain.com",
+    "gender": "male"
+  },
+  {
+    "id": 2,
+    "password": "abc123",
+    "first_name": "María",
+    "last_name": "López",
+    "username": "marial",
+    "email": "maria@example.com",
+    "gender": "female"
+  },
+  {
+    "id": 3,
+    "password": "pass789",
+    "first_name": "Carlos",
+    "last_name": "Ramírez",
+    "username": "carlosr",
+    "email": "carlos@example.com",
+    "gender": "male"
+  },
+  {
+    "id": 4,
+    "password": "qwerty",
+    "first_name": "Ana",
+    "last_name": "Martínez",
+    "username": "anam",
+    "email": "ana@example.com",
+    "gender": "female"
+  },
+  {
+    "id": 6,
+    "password": "supersecret",
+    "first_name": "Laura",
+    "last_name": "García",
+    "username": "laurag",
+    "email": "laura@example.com",
+    "gender": "female"
+  }
+]
