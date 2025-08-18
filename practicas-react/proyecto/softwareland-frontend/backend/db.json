@@ -1,0 +1,20 @@
+[
+  {
+    "notas": "Residente actualizado.",
+    "carrera": "Ingenieria en Informatica",
+    "instituto": "Universidad Nacional",
+    "correo": "ana.solis.m@example.com",
+    "telefono": "1234567890",
+    "fecha_nacimiento": "1998-10-20T00:00:00.000Z",
+    "genero": "Femenino",
+    "apellido": "Solis",
+    "nombre": "Ana Maria",
+    "lenguajes": {
+      "JavaScript": true,
+      "Python": true,
+      "C#": true
+    },
+    "id": 1,
+    "foto": "/uploads/1755488563729-149320378.jpeg"
+  }
+]
